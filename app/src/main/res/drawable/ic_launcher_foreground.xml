@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Planet Ring Back Part (under planet) -->
+    <path
+        android:pathData="M 32.5,58.8 C 22,59.8 14,56.5 14,52 c 0,-6 14.5,-11 32.5,-11.5"
+        android:strokeWidth="5"
+        android:strokeColor="#FFC56C"
+        android:strokeLineCap="round" />
+
+    <!-- Planet main sphere -->
+    <path android:pathData="M 54,24 A 28,28 0 1,1 53.99,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="24"
+                android:endX="54"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#FF7D54" android:offset="0.0" />
+                <item android:color="#E04052" android:offset="0.6" />
+                <item android:color="#4B123C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Planet Ring Front Part (above planet) -->
+    <path
+        android:pathData="M 46.5,41.2 C 61.5,40.8 94,44.5 94,52 c 0,6 -28,11.2 -61.5,6.8"
+        android:strokeWidth="5"
+        android:strokeColor="#FFC56C"
+        android:strokeLineCap="round" />
+
+    <!-- Small moon / satellite orbiting nearby -->
+    <path
+        android:fillColor="#8FE4FF"
+        android:pathData="M 82,34 A 3.5,3.5 0 1,1 81.99,34 Z" />
+
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Planetary Explorer",
+  "description": "An interactive solar system guide featuring 3D-like physics-based orbit tracking, kids and adults learning modes, and detailed atmosphere spectroscopy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
